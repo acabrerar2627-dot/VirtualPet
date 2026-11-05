@@ -59,6 +59,7 @@ public class Main{
             System.out.println("3. Comer");
             System.out.println("4. Ducha");
             System.out.println("5. Atacar al dummy");
+            System.out.println("6. Bailar");
             System.out.println("0. Salir");
             System.out.println("Elige una opción: ");
 
@@ -113,6 +114,10 @@ public class Main{
                         //Incrementar contador
                         contador = contador +1;
                     }
+                    break;
+
+                case 6:
+                    mascota.bailar();
                     break;
 
                 case 0:

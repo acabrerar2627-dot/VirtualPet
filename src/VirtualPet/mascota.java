@@ -84,6 +84,12 @@ public class mascota {
 
     }
 
+    //Bailar
+    public void bailar(){
+        this.energia -= 10;
+        System.out.println(this.nombre + " está bailando un mambo!\uD83D\uDC83\uD83D\uDD7A");
+    }
+
     //Comprobar si mascota sigue viva
     public boolean estaViva() {
         return energia > 0 && energia <= 100
